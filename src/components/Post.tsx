@@ -37,7 +37,6 @@ const Post = ({
 	...props
 }: Props) => (
 	<div className="flex flex-1 gap-x-4">
-
 		<div className="flex flex-col flex-1">
 			<div className="flex flex-1">
 				<div className="flex flex-1 gap-x-1 text-sm">
