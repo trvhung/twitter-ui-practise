@@ -150,7 +150,7 @@ const Feed = () => (
 					},
 					i,
 				) => (
-					<li key={`username-${i}`} className="p-4 rounded-lg shadow-2xl  border border-slate-200">
+					<li key={`username-${i}`} className="p-4 mb-4 rounded-lg shadow-2xl  border border-slate-200">
 						<Post
 							name={name}
 							username={username}
