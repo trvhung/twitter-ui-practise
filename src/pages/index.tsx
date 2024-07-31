@@ -19,7 +19,7 @@ export default function Home() {
 			</Head>
 			<div className="min-h-screen flex max-w-7xl mx-auto xl:grid xl:grid-cols-10 gap-5">
 				<Nav />
-				<main className="col-span-5 w-full border-x border-slate-200">
+				<main className="col-span-5 w-full">
 					<Header title="Home" />
 					<Tabs />
 				</main>
