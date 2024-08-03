@@ -18,8 +18,7 @@
 		"paths": {
 			"@ui/*": ["./src/components/*"],
 			"@rd/*": ["./src/components/radix/*"],
-			"@/components/*": ["components/*"],
-			"@utils/*": ["utils/*"]
+			"@/components/*": ["components/*"]
 		}
 	},
 	"include": [
