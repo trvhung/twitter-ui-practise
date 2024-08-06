@@ -50,6 +50,17 @@ const items: PostItem[] = [
 		date: '2h',
 		src: 'https://images.unsplash.com/photo-1532123675048-773bd75df1b4?ixlib=rb-1.2.1&w=128&h=128&dpr=2&q=80',
 		initials: 'JD',
+		image: (
+			<div className="w-full relative -z-10 h-80 mb-4">
+				<Image
+					fill={true}
+					style={{ objectFit: 'cover' }}
+					className="rounded-3xl"
+					src="https://topg.org/premium/250624/644912_5888.gif"
+					alt="Gradient"
+				/>
+			</div>
+		),
 	},
 	{
 		name: 'Jessica Doe',
